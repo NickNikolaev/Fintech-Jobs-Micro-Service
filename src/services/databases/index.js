@@ -1,0 +1,11 @@
+module.exports.ftpService = require('./ftp.service');
+module.exports.sftpService = require('./sftp.service');
+module.exports.dynamoDBService = require('./dynamoDB.service');
+module.exports.snowflakeService = require('./snowflake.service');
+module.exports.knexService = require('./knex.service');
+module.exports.mssqlService = require('./mssql.service');
+module.exports.apiService = require('./api');
+module.exports.dbService = require('./db');
+module.exports.postgreSQLService = require('./postgreSQL.service');
+module.exports.glacierService = require('./glacier.service');
+module.exports.s3Service = require('./s3.service');
